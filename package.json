@@ -1,0 +1,25 @@
+{
+  "name": "hrr48-fec-proxy",
+  "version": "1.0.0",
+  "description": "FEC proxy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon lib/server.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "nodemon": "2.0.4",
+    "path": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmali98/hrr48-fec-proxy.git"
+  },
+  "author": "Emma Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmali98/hrr48-fec-proxy/issues"
+  },
+  "homepage": "https://github.com/emmali98/hrr48-fec-proxy#readme"
+}
