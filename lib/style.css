@@ -1,0 +1,32 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 10px;
+  row-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#nav {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#nav img {
+  max-width: 100%;
+}
+
+#photo-carousel {
+  border: 2px solid blue;
+}
+
+#product-details {
+  border: 2px solid rebeccapurple;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+#store-featured {
+  border: 2px solid sienna;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
