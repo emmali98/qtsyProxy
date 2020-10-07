@@ -9,6 +9,7 @@
 #nav {
   grid-column-start: 1;
   grid-column-end: 3;
+  margin-bottom: 20px;
 }
 #nav img {
   max-width: 100%;
@@ -19,13 +20,14 @@
 }
 
 #reviews {
-  margin: 3%;
+  margin: 2% 6% 2% 4%
 }
 
 #productDetails {
   grid-column-start: 2;
   grid-row-start: 2;
   grid-row-end: 4;
+  margin-right: 9%;
 }
 
 #store {
