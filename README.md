@@ -1,1 +1,1 @@
-FEC proxy
+Qtsy Proxy Server
